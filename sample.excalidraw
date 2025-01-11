@@ -31,6 +31,35 @@
       "updated": 1736684574685,
       "link": null,
       "locked": false
+    },
+    {
+      "id": "agd9lowhlhEZULJ_RG4V5",
+      "type": "diamond",
+      "x": 294.8203125,
+      "y": 124.953125,
+      "width": 82.3828125,
+      "height": 63.9453125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 890624532,
+      "version": 24,
+      "versionNonce": 987369620,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1736684684280,
+      "link": null,
+      "locked": false
     }
   ],
   "appState": {
