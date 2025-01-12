@@ -1,10 +1,16 @@
-a,b,c = input().split()
+S = input()
+S = int(S)
 
 
-a = int(a)
-b = int(b)
-c = int(c)
+cnt = 0
+sum = 0
+while True:
+    cnt += 1
+    sum += cnt
+    
+    if S < sum:
+        break
 
-array = [a,b,c]
-array.sort()
-print(array[1])
+        
+
+print(cnt-1)
