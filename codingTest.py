@@ -1,16 +1,5 @@
-S = input()
-S = int(S)
-
-
-cnt = 0
-sum = 0
-while True:
-    cnt += 1
-    sum += cnt
-    
-    if S < sum:
-        break
-
-        
-
-print(cnt-1)
+k,n,m = input().split()
+k = int(k)
+n = int(n)
+m = int(m)
+print(k*n-m if k*n-m>0 else 0)
