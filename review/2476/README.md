@@ -1,3 +1,6 @@
+조건문 , 최댓값으로 뽑아서 출력하기
+
+```python
 case = int(input())
 answer = 0
 
@@ -16,3 +19,4 @@ for _ in range(case):
         answer = max(answer, 100 * max(a,b,c))
 
 print(answer)
+```
