@@ -1,12 +1,13 @@
-dish = list(str(input()))
-answer = 0
+n = int(input())
 
-for i in range(len(dish)):
-    if i == 0:
-        answer += 10
-    elif dish[i] == dish[i-1]:
-        answer += 5
+not_cute = 0
+cute = 0
+
+for i in range(n):
+    vote = int(input())
+    if(vote == 1):
+        cute += 1
     else:
-        answer += 10
-        
-print(answer)
+        not_cute += 1
+
+print("Junhee is cute!" if cute > not_cute else "Junhee is not cute!")
