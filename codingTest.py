@@ -10,4 +10,4 @@ for i in range(n):
     else:
         not_cute += 1
 
-print("Junhee is cute!!" if cute > not_cute else "Junhee is not cute!")
+print("Junhee is cute!!!!!" if cute > not_cute else "Junhee is not cute!")
