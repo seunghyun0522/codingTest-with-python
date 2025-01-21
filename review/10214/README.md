@@ -1,3 +1,7 @@
+### 연고전
+
+```python
+
 T = int(input())
 
 
@@ -15,3 +19,5 @@ for _ in range(T):
         print("Korea")
     else:
         print("Draw")
+
+```
