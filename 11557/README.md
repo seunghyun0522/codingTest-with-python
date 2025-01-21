@@ -1,3 +1,11 @@
+### Yangjojang of The Year
+
+- 술 어디가 잘 먹는지 시합 하는 문제
+
+- join 사용하지 않으면 runtime error 
+
+```python
+
 # 2
 # 3
 # Yonsei 10
@@ -6,7 +14,6 @@
 # 2
 # Yonsei 1
 # Korea 10000000 
-
 
 T = int(input())
 result = []
@@ -25,3 +32,4 @@ for _ in range(T):
             
 
 print("\n".join(result))
+```
