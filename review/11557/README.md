@@ -2,7 +2,7 @@
 
 - 술 어디가 잘 먹는지 시합 하는 문제
 
-- join 사용하지 않으면 runtime error 
+- join 사용하지 않으면 runtime error
 
 ```python
 
@@ -13,7 +13,7 @@
 # Ewha 20
 # 2
 # Yonsei 1
-# Korea 10000000 
+# Korea 10000000
 
 T = int(input())
 result = []
@@ -27,9 +27,8 @@ for _ in range(T):
         if beer > max :
             max = beer
             max_univ = univ
-            
+
     result.append(max_univ)
-            
 
 print("\n".join(result))
 ```

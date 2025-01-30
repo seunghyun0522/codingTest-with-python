@@ -119,3 +119,48 @@ C의 원소를 차례대로 queuestack에 삽입했을 때의 리턴값을 공�
 ---
 
 ### solution
+
+- 시간초과 코드 (O^2)
+
+진짜... 싫다 2중 for문은 안되는가 ! ! !
+
+```python
+N = int(input())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+M = int(input())
+C = list(map(int, input().split()))
+
+queue = []
+for i in range(N):
+    if(A[i] ==0):
+        queue.append(B[i])
+
+for i in range(M):
+    queue.insert(0, C[i])
+    print(queue.pop(), end=' ')
+```
+
+- 해결 : deque 와 for문 한개
+
+```python
+
+from collections import deque
+N = int(input())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+M = int(input())
+C = list(map(int, input().split()))
+
+result = []
+
+queue = deque([])
+for i in range(N):
+    if(A[i] ==0):
+        queue.append(B[i])
+
+for i in range(M):
+    queue.appendleft(C[i])
+    print(queue.pop(), end=' ')
+
+```
